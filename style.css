@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #ff1430;
+    color: #fff;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px #000;
+}
+
+h1:hover {
+    background-color: #000;
+    color: #ff1430;
+    box-shadow: 5px 5px 5px #ff1430;
+    transition: 1s;
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    width: 450px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #ff1430;
+}
+
+h2:hover {
+    background-color: #ff1430;
+    color: #000;
+    box-shadow: 5px 5px 5px #000;
+    transition: 1s;
+}
+
+p {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    border: 1px solid #000;
+    margin: 5px;
+    height: 200px;
+}
+
+.container div {
+    background-color: #ff1430;
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.align-self.auto .item3 {
+    align-self: auto;
+}
+
+.align-self.start .item3 {
+    align-self: flex-start;
+}
+
+.align-self.end .item3 {
+    align-self: flex-end;
+}
+
+.align-self.center .item3 {
+    align-self: center;
+}
+
+.align-self.stretch .item3 {
+    align-self: stretch;
+}

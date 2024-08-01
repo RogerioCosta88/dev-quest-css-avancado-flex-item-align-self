@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Flex Item: Align-self</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Align Self</h1>
+    <p>O <strong>align-self</strong> determina a capacidade do <strong>flex-item</strong> se mover <i>verticalmente</i> dentro do <strong>container</strong>. Seu <i>valor</i> padrão é <strong>auto</strong>.</p>
+
+    <h2>auto</h2>
+    <p>Os elementos <i>filhos</i> oculparam todo o estaço disponível <i>verticalmente</i>.</p>
+    <div class="container align-self auto">
+        <div class="item item1">1</div>
+        <div class="item item2">Lorem ipsum dolor sit amet consectetur</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+
+    <h2>start</h2>
+    <p>Já o <strong>flex-start</strong> posiciona o item no começo do <strong>container</strong>.</p>
+    <div class="container align-self start">
+        <div class="item item1">1</div>
+        <div class="item item2">Lorem ipsum dolor sit amet consectetur</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+
+    <h2>end</h2>
+    <p>O <strong>flex-end</strong> é inverso ao <strong>flex-start</strong> posiciona o item no fim do <strong>container</strong>.</p>
+    <div class="container align-self end">
+        <div class="item item1">1</div>
+        <div class="item item2">Lorem ipsum dolor sit amet consectetur</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+
+    <h2>center</h2>
+    <p>O <strong>center</strong> posiciona o item no meio do <strong>container</strong>.</p>
+    <div class="container align-self center">
+        <div class="item item1">1</div>
+        <div class="item item2">Lorem ipsum dolor sit amet consectetur</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+
+    <h2>stretch</h2>
+    <p>O <strong>stretch</strong> estica o item até que ele preencha todo o espaço do <strong>container</strong>.</p>
+    <div class="container align-self stretch">
+        <div class="item item1">1</div>
+        <div class="item item2">Lorem ipsum dolor sit amet consectetur</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+</body>
+</html>
